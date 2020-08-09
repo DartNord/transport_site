@@ -13,22 +13,22 @@
     <title>54Kolesa</title>
 </head>
 <body>
-    <div class="background"></div>
     <header>
         <div class="main-wrapper bb">
-            <img src="./img/NEWNEWLOGO.png">
+            <a href="./index.html"><img src="./img/NEWNEWLOGO.png" id="logo"></a>
             <div class="slogan">''У нас надежные крылья!''</div>
             <nav class="main-menu">
                 <ul class="bb">
-                    <li><a href="./index.html">Главная</a></li>
-                    <li><a href="./pages/application.html">Заявка</a></li>
-                    <li><a href="./pages/contacts.html">Контакты</a></li>
-                    <li><a href="./pages/about.html">О компании</a></li>
+                    <li><a href="./index.html"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="./index.html"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                    <li><a href="./index.html"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                    <li><a href="./index.html"><i class="fa fa-phone-square" aria-hidden="true"></i> 8(996)355-11-23</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
+        <div class="background"></div>
         <section class="main-board">
             <div class="noValue"></div>
             <div class="main-wrapper">
@@ -37,41 +37,35 @@
                         Быстрая доставка, лучшая цена на рынке
                     </h1>
                     <div class="left__block__text">
-                        <h3>Узнайте стоимость перевозки</h3>
-                    </div>
-                    <div class="buttons_block">
-                        <a href="#" class="main_board_button_link">
-                            <i><i class="fas fa-headset"></i></i>
-                            <div>
-                                <div>Запросить звонок</div>
-                                <div class="main_board_button_link_bold"></div>
-                            </div>
-                        </a>
-                        <a href="#" class="main_board_button_link">
-                            <i><i class="fas fa-share-alt-square"></i></i>
-                            <div>
-                                <div>Поделиться</div>
-                                <div class="main_board_button_link_bold"></div>
-                            </div>
-                        </a>
+                        <h3>Свяжитесь с нами!</h3>
+                        <input id="name" placeholder="Введите ваше имя" type="text">
+                        <input id="phone" placeholder="Введите ваш номер" type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$">
+                        <input id="submit" type="submit" value="Отправить">
                     </div>
                 </div>
                 <div class="post">
                     <h3>Узнайте стоимость перевозки</h3>
                     <h5>Индивидуальный рассчет</h5>
                     <div class="input-storage">
-                        <select name="mass-choise" id="mass">
-                            <option value="2">0т. до 0,5т.</option>
-                            <option value="8">0,5т. до 1,5т.</option>
-                            <option value="20">1,5т. до 3т.</option>
-                            <option value="40">3т. до 5т.</option>
-                            <option value="40">5т. до 7т.</option>
-                            <option value="40">7т. до 10т.</option>
-                            <option value="40">10т. до 20т.</option>
+                        <select name="mass-choice" id="mass">
+                            <option value="1">0т. до 0,5т.</option>
+                            <option value="2">0,5т. до 1,5т.</option>
+                            <option value="3">1,5т. до 3т.</option>
+                            <option value="4">3т. до 5т.</option>
+                            <option value="5">5т. до 7т.</option>
+                            <option value="6">7т. до 10т.</option>
+                            <option value="7">10т. до 20т.</option>
                         </select>
-                        <input id="name" placeholder="Введите ваше имя" type="text">
-                        <input id="phone" placeholder="Введите ваш номер" type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$">
-                        <input id="submit" type="submit" value="Связаться с нами">
+                        <select name="dist-choice" id="dist">
+                            <option value="1">~10-20км</option>
+                            <option value="2">~30-50км</option>
+                            <option value="3">~50-100км</option>
+                            <option value="4">~100-200км</option>
+                            <option value="5">~200-300км</option>
+                            <option value="6">~400-500км</option>
+                            <option value="7">~>500км</option>
+                        </select>
+                        <input id="result" type="submit" value="Посчитать">
                     </div>
                 </div>
             </div>
@@ -97,23 +91,28 @@
         <section class="score-board">
             <div class="score">
                 <ul class="score-ul">
-                    <li><h3>Выполнено задач</h3>658</li>
-                    <li><h3>Пройдено км</h3>8711</li>
-                    <li><h3>Перевезено груза(м2)</h3>104532</li>
+                    <li><h3>Выполнено задач</h3>458</li>
+                    <li><h3>Пройдено км</h3>40640</li>
+                    <li><h3>Перевезено груза(м2)</h3>145352</li>
                     <li><h3>Хороших отзывов</h3>43</li>
                 </ul>
             </div>
             
         </section>
-        <!--
-        <footer>
-            <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7419.251158228465!2d82.91940568089544!3d55.02845573314425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42dfe5d035f6e8fb%3A0xcf8f4577bed20871!2z0J_Qu9C-0YnQsNC00Ywg0JvQtdC90LjQvdCw!5e0!3m2!1sru!2sru!4v1585485871710!5m2!1sru!2sru" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                <h5>Photo by Norbert Tóth on Unsplash</h5>
-                <div>Logo created by <a href="https://www.designevo.com/logo-maker/" title="Free Online Logo Maker">DesignEvo logo maker</a></div>
+
+        <footer class="footer">
+            <div class="map-div">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7419.251158228465!2d82.91940568089544!3d55.02845573314425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42dfe5d035f6e8fb%3A0xcf8f4577bed20871!2z0J_Qu9C-0YnQsNC00Ywg0JvQtdC90LjQvdCw!5e0!3m2!1sru!2sru!4v1585485871710!5m2!1sru!2sru" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
-        </footer> -->
+            <hr color="black">
+            <div>
+            <h5>Photo by Norbert Tóth on Unsplash</h5>
+            <div>Logo created by <a href="https://www.designevo.com/logo-maker/" title="Free Online Logo Maker">DesignEvo logo maker</a></div>
+            <address>Сайт разработан/site by: Epishin Alex (Nordmanes778@gmail.com)</address>
+            </div>
+        </footer>
     </main>
     <script src="./script.js"></script>
+    <a class="goUp" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 </body>
 </html>
