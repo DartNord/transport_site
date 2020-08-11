@@ -48,22 +48,22 @@
                     <h5>Индивидуальный рассчет</h5>
                     <div class="input-storage">
                         <select name="mass-choice" id="mass">
-                            <option value="1">0т. до 0,5т.</option>
-                            <option value="2">0,5т. до 1,5т.</option>
-                            <option value="3">1,5т. до 3т.</option>
-                            <option value="4">3т. до 5т.</option>
-                            <option value="5">5т. до 7т.</option>
-                            <option value="6">7т. до 10т.</option>
-                            <option value="7">10т. до 20т.</option>
+                            <option value="14">0т. до 0,5т.</option>
+                            <option value="18">0,5т. до 1,5т.</option>
+                            <option value="22">1,5т. до 3т.</option>
+                            <option value="25">3т. до 5т.</option>
+                            <option value="32">5т. до 7т.</option>
+                            <option value="35">7т. до 10т.</option>
+                            <option value="48">10т. до 20т.</option>
                         </select>
                         <select name="dist-choice" id="dist">
-                            <option value="1">~10-20км</option>
-                            <option value="2">~30-50км</option>
-                            <option value="3">~50-100км</option>
-                            <option value="4">~100-200км</option>
-                            <option value="5">~200-300км</option>
-                            <option value="6">~400-500км</option>
-                            <option value="7">~>500км</option>
+                            <option value="15">~10-20км</option>
+                            <option value="40">~30-50км</option>
+                            <option value="75">~50-100км</option>
+                            <option value="150">~100-200км</option>
+                            <option value="250">~200-300км</option>
+                            <option value="450">~400-500км</option>
+                            <option value="500">~>500км</option>
                         </select>
                         <input id="result" type="submit" value="Посчитать">
                     </div>
@@ -112,7 +112,9 @@
             </div>
         </footer>
     </main>
-    <script src="./script.js"></script>
     <a class="goUp" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
