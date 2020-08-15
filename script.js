@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
             clientResult = massOption * distOption;
         Swal.fire({
             title: 'Сделаем скидку для вас!',
-            text: 'Стоимость предварительного рассчета составляет : ' + String(clientResult) + "₽",
+            text: 'Стоимость предварительного рассчета составляет : ' + String(clientResult) + " руб.",
             imageUrl: 'https://moskvalux.ru/wp-content/uploads/2020/07/XXXL.jpg',
             imageWidth: 400,
             imageHeight: 200,

@@ -26,9 +26,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/application.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contacts.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +72,12 @@
       <workItem from="1596702123670" duration="11947000" />
       <workItem from="1596973143481" duration="8929000" />
       <workItem from="1597138405881" duration="6990000" />
-      <workItem from="1597486284298" duration="1424000" />
+      <workItem from="1597486284298" duration="1940000" />
+      <workItem from="1597488532463" duration="2120000" />
+      <workItem from="1597494108831" duration="4448000" />
+      <workItem from="1597498692208" duration="152000" />
+      <workItem from="1597499020741" duration="133000" />
+      <workItem from="1597504435449" duration="142000" />
     </task>
     <servers />
   </component>
@@ -99,13 +101,13 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="606" y="242" key="SettingsEditor/0.0.2194.1194@0.0.2194.1194" timestamp="1596214720076" />
-    <state x="754" y="279" key="run.anything.popup" timestamp="1596706993582">
+    <state x="754" y="279" key="run.anything.popup" timestamp="1597496347397">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="754" y="279" key="run.anything.popup/0.0.2194.1194@0.0.2194.1194" timestamp="1596706993582" />
-    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1596976175268">
+    <state x="754" y="279" key="run.anything.popup/0.0.2194.1194@0.0.2194.1194" timestamp="1597496347397" />
+    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1597497762468">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup/0.0.2194.1194@0.0.2194.1194" timestamp="1596976175268" />
+    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup/0.0.2194.1194@0.0.2194.1194" timestamp="1597497762468" />
   </component>
 </project>
