@@ -12,4 +12,16 @@ document.addEventListener("DOMContentLoaded", function() {
             imageAlt: 'Custom image',
         });
     };
+
+    document.getElementById("submit").onclick = function() {
+        Swal.fire({
+            title: 'Спасибо!',
+            text: 'Ваша заявка отправлена',
+            imageUrl: '',
+            imageWidth: 400,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+        });
+    };
+
 });
