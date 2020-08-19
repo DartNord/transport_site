@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
             imageAlt: 'Custom image',
         });
     };
-
+/*
     document.getElementById("submit").onclick = function() {
         Swal.fire({
             title: 'Спасибо!',
@@ -23,5 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
             imageAlt: 'Custom image',
         });
     };
+
+ */
 
 });

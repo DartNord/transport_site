@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="msapplication-navbutton-color" content="#36A26B">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#36A26B">
     <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/adaptive.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:500i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet">
@@ -22,7 +25,7 @@
                     <li><a href="./index.html"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                     <li><a href="./index.html"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
                     <li><a href="./index.html"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                    <li><a href="./index.html"><i class="fa fa-phone-square" aria-hidden="true"></i> 8(953)889-00-37</a></li>
+                    <li><a href="./index.html"><i class="fa fa-phone-square" aria-hidden="true"></i> 8(953)8890037</a></li>
                 </ul>
             </nav>
         </div>
@@ -36,11 +39,17 @@
                     <h1>
                         Быстрая доставка, лучшая цена на рынке
                     </h1>
-                    <form action="" method="post">
+                    <form>
                     <div class="left__block__text">
                         <h3>Свяжитесь с нами!</h3>
-                        <input id="name" placeholder="Введите ваше имя" name="user_name" type="text">
-                        <input id="phone" placeholder="Введите ваш номер : 8(999)999 99 99" name="user_phone" type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$">
+                        <!-- Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="54Kolesa">
+                        <input type="hidden" name="admin_email" value="fiftyfourwheels@yandex.ru">
+                        <input type="hidden" name="form_subject" value="Заявка с сайта 54Колеса">
+                        <!-- END Hidden Required Fields -->
+                        <input id="name" placeholder="Введите ваше имя" name="Имя заказчика" type="text">
+                        <input id="phone" placeholder="Введите номер : 8(999)999-99-99" name="Номер заказчика" type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$">
+                        <input id="message" placeholder="Описание задачи" name="Сообщение заказчика" type="text">
                         <input id="submit" type="submit" value="Отправить">
                     </div>
                     </form>
@@ -116,7 +125,10 @@
     </main>
     <a class="goUp" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
     <script src="sweetalert2.all.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
     <script src="./script.js"></script>
+    <script src="main.js"></script>
+
 </body>
 </html>
